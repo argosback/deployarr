@@ -36,7 +36,8 @@ services:
       - BUILD=0
       - COMMIT=0
       - CONFIGS=0
-      - CONTAINERS=1 # Traefik, portainer, etc.
+      - CONTAINERS=1 # Traefik, portainer, dozzle, etc.
+      - ALLOW_LOGS=1 # Traefik, portainer, dozzle, etc.
       - DISTRIBUTION=0
       - EXEC=0
       - IMAGES=1 # Portainer
